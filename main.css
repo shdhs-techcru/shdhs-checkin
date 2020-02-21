@@ -1,0 +1,229 @@
+body{background-image: url('blankpagekiosk.png'); 
+  no-repeat center center fixed; 
+  background-size:1920px 1080px;
+}
+
+.studentbutton {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 80px;
+  margin-top: 12%;
+  margin-left: 10%;
+  background-color: #16284c; /* Green */
+  border: none;
+  color: white;
+  width: 500px;
+  height: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ /* font-size: 16px; /*16px */
+/*  height:  20px ;  /*50px */
+  
+
+}
+
+.registrationbutton {
+  padding-left: 20px;
+  padding-right:100px;
+  border-radius: 5px;
+  font-size: 80px;
+  margin-left: 10%;
+  background-color: #16284c; /* Green */
+  border: none;
+  color: white;
+  width: 500px;
+  height: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ /* font-size: 16px; /*16px */
+/*  height:  20px ;  /*50px */
+  
+
+}
+
+.link:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.link{
+  color: white;
+}
+
+.studentbutton:hover{
+  background-color: #213c73;
+}
+
+.registrationbutton:hover{
+  background-color: #213c73;
+}
+
+.text {
+  margin: auto;
+  color: white;
+  width: 50%;
+  border: 3px solid #213c73;
+}
+
+
+
+
+
+
+
+/* Enter Student ID Page */
+
+
+
+
+
+
+
+
+
+.submitbutton {
+  border-radius: 5px;
+  background-color: #16284c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /*16px */
+  height:  70px ;  /*50px */
+  
+  
+
+}
+.submitbutton:hover{
+  
+  background-color: #213c73;
+
+}
+.text_in{
+  background-color:#ffffff ; /*#667ca9 Green */
+  border-width: 3px;
+  border-color: #16284c; 
+  color: #16284c;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height:  60px ; /* 16px */
+  width: 20%;
+  border-radius: 10px;
+}
+.form_box{
+padding-top:21%;
+padding-left: 3%;
+padding-right: 25%;
+width: 100%;
+}
+
+.divclass{
+  border-radius: 5px;
+  font-size: 45px;
+  background-color: #16284c; /* Green */
+  border: none;
+  color: white;
+  width: 200px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.divclass:hover{
+  
+  background-color: #213c73;
+
+}
+
+
+
+
+
+/* Checkin/Checkout Page */
+
+
+
+
+.studentINFO{
+border-radius: 5px;
+color: black;
+background-color: white;
+padding: 50px;
+margin-bottom: 20px;
+border-color: #16284c;
+width: 35%;
+margin-left: 260px;
+text-align: center;
+
+}
+
+
+
+.checkinbutton {
+  border-radius: 5px;
+  background-color: #16284c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /*16px */
+  height:  70px ;  /*50px */
+  width: 50%;
+  padding-bottom: 20px;
+}
+.checkoutbutton {
+  border-radius: 5px;
+  margin-top: 30px;
+  background-color: #16284c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /*16px */
+  height:  70px ;  /*50px */
+  width: 50%;
+  padding-bottom: 20px;
+}
+.checkinbutton:hover{
+  background-color: #213c73;
+}
+.checkoutbutton:hover{
+  background-color: #213c73;
+}
+
+.all {
+  text-align: center;
+  margin: 2.5%;
+  width: 50%;
+  padding: 10px;
+}
+
+
+/* print page */
+
+
+
+
+.print {
+  background-color: white;
+}
