@@ -16,8 +16,8 @@
 </style>
 <title>Hub</title>
 <body style="background-color:#e31d1a;">
-<a href='/project/student_checkout.php' class="button">Checkout</a>
+<a href='/project/student_checkout.php' class="button">Check Out</a>
 <br>
-<a href='/project/student_checkin.php' class="button">Checkin</a>
+<a href='/project/student_checkin.php' class="button">Check In</a>
 </body>
 </html>

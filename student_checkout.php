@@ -1,3 +1,4 @@
+<html>
 <style>  body{background-image: url('blankpagekiosk.png'); no-repeat center center fixed; background-size:1920PX 1080PX} 
 .button {
   background-color: #16284c;
@@ -38,7 +39,7 @@ $sql="INSERT INTO logOutLogger (timeLog, studentId) VALUES ('$timeStamp', '$stud
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+ //   echo "Error: " . $sql . "<br>" . $conn->error;
 }
 /*
 }} else {
@@ -46,8 +47,8 @@ if (mysqli_query($conn, $sql)) {
 }
 }*/
 echo "Please confirm that you have turned in a note before you leave.";
-echo $studId;
-echo $timeStamp;
+//echo $studId;
+//echo $timeStamp;
 
 mysqli_close($conn);
 
@@ -62,5 +63,6 @@ Check out successful
   function goHome(){
     window.location = 'http://sdlc.tech.shdhs.local/project/index.php';
   }
- // setTimeout(goHome, 10000);
+  setTimeout(goHome, 3000);
 </script>
+</html>

@@ -15,7 +15,7 @@
 
 <div class="form_box">
   <form action="login_studentID.php" method="post">
-     <input type="text" name="studentID"  placeholder="Enter StudentID"   class="text_in">
+    <input type="text" name="studentID"  placeholder="Enter StudentID or Email"   class="text_in">
     <!-- <p><label>Password</label><br />
     <input type="password" name="password"></p> -->
     <input type="submit" class="submitbutton" name="Submit"  value="Submit">
