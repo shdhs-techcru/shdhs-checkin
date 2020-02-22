@@ -1,9 +1,9 @@
 <?php
 
-    define('DB_SERVER', 'localhost'); //server address
-    define('DB_USERNAME', 'sdlc'); //  MySQL Server User
-    define('DB_PASSWORD', 'techcru2019'); // MySQL User password
-    define('DB_DATABASE', 'sdlc'); // MySQL Database
+    define('DB_SERVER', ''); //server address
+    define('DB_USERNAME', ''); //  MySQL Server User
+    define('DB_PASSWORD', ''); // MySQL User password
+    define('DB_DATABASE', ''); // MySQL Database
     
     $conn = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
