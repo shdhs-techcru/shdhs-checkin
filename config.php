@@ -1,6 +1,6 @@
 <?php
 
-    define('DB_SERVER', ''); //server address
+    define('DB_SERVER', 'test'); //server address
     define('DB_USERNAME', ''); //  MySQL Server User
     define('DB_PASSWORD', ''); // MySQL User password
     define('DB_DATABASE', ''); // MySQL Database
